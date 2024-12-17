@@ -225,7 +225,8 @@ const books = [
   },
 ];
 
-const [firstBook, secondBook] = books;
+// const [firstBook, secondBook] = books;
 
-console.log(firstBook);
-console.log(secondBook);
+const [, , thirdBook] = books;
+
+console.log(thirdBook);
