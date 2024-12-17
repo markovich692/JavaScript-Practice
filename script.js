@@ -224,3 +224,8 @@ const books = [
     highlighted: true,
   },
 ];
+
+const [firstBook, secondBook] = books;
+
+console.log(firstBook);
+console.log(secondBook);
